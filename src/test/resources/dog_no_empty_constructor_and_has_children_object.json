@@ -1,0 +1,11 @@
+{
+  "@c": "org.test.ser.domain.Dog",
+  "@ref": 1,
+  "name": "Mark Parent",
+  "children": {
+    "@c": "org.test.ser.domain.Dog",
+    "@ref": 2,
+    "name": "Yuki children",
+    "parent": 1
+  }
+}
